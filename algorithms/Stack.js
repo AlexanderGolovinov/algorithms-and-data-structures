@@ -1,10 +1,10 @@
-/* Stacks */
+/* Stacks [First IN - Last OUT]*/
 
 //functions: push, pop, peek (show last element), length
 
 //Creates a stack
 
-let Stack = function () {
+let myStack = function () {
     this.count = 0;
     this.storage = {};
 
@@ -37,7 +37,7 @@ let Stack = function () {
     }
 };
 
-let myStack = new Stack();
+let myStack = new myStack();
 
 myStack.push(5);
 myStack.push(7);
