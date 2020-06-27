@@ -1,6 +1,4 @@
-/* Stacks */
-
-//functions: push, pop, peek (show top element), length
+/* Palindrome */
 
 let letters = []; //our stack
 
@@ -20,7 +18,6 @@ if (word === rword) {
     console.log(rword + " is palindrome");
 } else {
     console.log(rword + " is not palindrome");
-
 }
 
 
